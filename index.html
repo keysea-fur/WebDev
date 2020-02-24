@@ -2,35 +2,175 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Forms</title>
+    <title>DFA Passport Application Form</title>
   </head>
   <body>
-    <form class="" action="Personal_site_ferrer.html" method="post">
-      <label>Name: <input type="text" name="" value=""></label>
-      <br>
-      <label>Password: <input type="password" name="" value=""></label>
-      <br>
-      <button type="button" name="button">Submit</button>
-      <br>
-      <button type="submit" name="button">Submit now </button>
-      <br>
-      <input type="file" name="" value="">
-      <br>
-      <input type="date" name="" value="">
-      <br>
-      <input type="radio" name="" value="">
-      <fieldset>
-        <legend>Gender</legend>
-        <label>Female <input type="radio" name="Gender" value="Female"></label>
-        <br>
-        <label>Male <input type="radio" name="Gender" value="Male"></label>
-        <br>
-        <input type="checkbox" name="" value="">
-        <br>
-        <input type="range" name="" value="">
+    <form class="" action="mailto:ferrerkb@students.national-u.edu.ph" method="post" enctype="text/plain">
+      <h2>PASSPORT APPLICANT’S INFORMATION</h2>
 
-      </fieldset>
+        <table cellspacing="10">
+          <tr>
+            <td><label>LAST NAME:</label></td>
+            <td><input type="text" name="LAST NAME" value=""></td>
+          </tr>
+          <tr>
+            <td><label>FIRST NAME:<br></label></td>
+            <td><input type="text" name="FIRST NAME" value=""></td>
+          </tr>
+          <tr>
+            <td><label>MIDDLE NAME or MAIDEN LAST NAME:<br></label></td>
+            <td><input type="text" name="MIDDLE NAME OR MAIDEN LAST NAME" value=""></td>
+          </tr>
+          <tr>
+            <td><label>SEX:</label></td>
+            <td><label><input type="radio" name="SEX" value="MALE">MALE</label>
+            <label><input type="radio" name="SEX" value="FEMALE">FEMALE</label></td>
+          </tr>
+          <tr>
+            <td><label>DATE OF BIRTH <em>(ex. 01 Jan 2017)</em>:</label></td>
+            <td><input type="date" name="DATE OF BIRTH" value=""></label></td>
+          </tr>
+          <tr>
+            <td><label> PLACE OF BIRTH:</td>
+            <td><input type="text" name="PLACE OF BIRTH" value=""></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><em>(For born in the PHL: Municipality/City & Province
+      For born outside the PHL: Country)</em></td>
+          </tr>
+        </table>
+
+        <fieldset>
+          <legend>CIVIL STATUS</legend>
+          <label><input type="radio" name="CIVIL STATUS" value="SINGLE">SINGLE</label><br>
+          <label><input type="radio" name="CIVIL STATUS" value="MARRIED">MARRIED</label><br>
+          <label><input type="radio" name="CIVIL STATUS" value="WIDOW/ER">WIDOW/ER</label><br>
+          <label><input type="radio" name="CIVIL STATUS" value="NULLIFIED/ANNULLED">NULLIFIED/ANNULLED</label><br>
+          <label><input type="radio" name="CIVIL STATUS" value="DIVORCED">DIVORCED</label>
+          <br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+          <legend>HOW DID YOU ACQUIRE PHL CITIZENSHIP?</legend>
+          <label><input type="radio" name="PHL CITIZENSHIP" value="BY BIRTH">BY BIRTH</label><br>
+          <label><input type="radio" name="PHL CITIZENSHIP" value="BY NATURALIZATION ">BY NATURALIZATION</label><br>
+          <label><input type="radio" name="PHL CITIZENSHIP" value="BY RE-ACQUISITION (RA 9225) ">BY RE-ACQUISITION (RA 9225)</label><br>
+          <label><input type="radio" name="PHL CITIZENSHIP" value="BY ELECTION">BY ELECTION</label><br>
+          <label><input type="radio" name="PHL CITIZENSHIP" value="BY LEGISLATION">BY LEGISLATION</label><br>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>DID YOU EVER LOSE YOUR PH CITIZENSHIP?</legend>
+          <label><input type="radio" name="LOSE OF PH CITIZENSHIP" value="YES">YES </label>
+          <br>
+          <label><input type="radio" name="LOSE OF PH CITIZENSHIP" value="NO">NO</label>
+          <br>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>ARE YOU CURRENTLY A CITIZEN OF ANOTHER COUNTRY?</legend>
+            <label><input type="radio" name="CITIZEN OF ANOTHER COUNTRY" value="YES">YES </label>
+            <br>
+            <label><input type="radio" name="CITIZEN OF ANOTHER COUNTRY" value="NO">NO</label></label>
+            <br>
+            <label>IF Yes, from what country? <input type="text" name="" value=""></label>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>HAVE YOU SERVED IN ANY FOREIGN MILITARY?</legend>
+            <label><input type="radio" name="SERVED IN ANY FOREIGN MILITARY" value="YES">YES </label>
+            <br>
+            <label><input type="radio" name="SERVED IN ANY FOREIGN MILITARY" value="NO">NO</label>
+            <br>
+            <label>IF Yes, from what country? <input type="text" name="" value=""></label>
+            <br>
+        </fieldset>
+
+
+  <label><h2>APPLICANT’S CONTACT INFORMATION</h2></label>
+  <table cellspacing="10">
+    <tr>
+      <td><label>HOME ADDRESS: </label></td>
+      <td><input type="text" name="HOME ADDRESS" value=""></td>
+    </tr>
+    <tr>
+      <td><label>PRESENT ADDRESS: </td></td>
+      <td><input type="text" name="PRESENT ADDRESS" value=""></td>
+    </tr>
+    <tr>
+      <td><label>WHERE DO YOU WISH YOUR PASSPORT TO BE DELIVERED?</label></td>
+      <td><label><input type="radio" name="PASSPORT DELIVERY ADDRESS" value="HOME ADDRESS">HOME ADDRESS</label></td>
+      <td><label><input type="radio" name="PASSPORT DELIVERY ADDRESS" value="PRESENT ADDRESS">PRESENT ADDRESS</label></td>
+    </tr>
+    <tr>
+      <td><label>TELEPHONE NUMBER: </label></td>
+      <td><input type="text" name="TELEPHONE NUMBER" value=""></td>
+    </tr>
+    <tr>
+      <td><label>e-MAIL ADDRESS: </label></td>
+      <td><input type="email" name="e-MAIL ADDRESS" value=""></td>
+    </tr>
+    <tr>
+      <td>APPLICANT’S SPOUSE’S NAME: </td>
+      <td><input type="text" name="SPOUSE NAME" value=""></td>
+    </tr>
+    <tr>
+      <td><label> PERSON TO CONTACT IN CASE OF EMERGENCY: </label></td>
+      <td><input type="text" name="PERSON IN CONTACT" value=""></td>
+      <td><label> TEL/MOBILE NO.: <input type="text" name="" value=""> </label></td>
+    </tr>
+  </table>
+
+
+    <label><h2>PARENTAL INFORMATION</h2></label>
+    <table cellspacing="10">
+      <tr>
+        <td><label><strong>FATHER’S DETAILS</strong></label></td>
+      </tr>
+      <tr>
+        <td><label>Last Name:</label></td>
+        <td><label><input type="text" name="FATHER'S LAST NAME" value=""></label></td>
+      </tr>
+      <tr>
+        <td><label>First Name:</label></td>
+        <td><label><input type="text" name="FATHER'S FIRST NAME" value=""></label></td>
+      </tr>
+      <tr>
+        <td><label>Middle Name:</label></td>
+        <td><label><input type="text" name="FATHER'S MIDDLE NAME" value=""></label></td>
+      </tr>
+      <tr>
+        <td><label>Citizenship <em>(at time of applicant’s birth)</em>:</label></td>
+        <td><label><input type="text" name="FATHER'S CITIZENSHIP" value=""></label></td>
+      </tr>
+      <tr>
+      <td><label><strong>MOTHER’S DETAILS</strong></label></td>
+      <tr>
+        <td><label>Last Name:</label></td>
+        <td><label><input type="text" name="MOTHER'S LAST NAME" value=""></label></td>
+      </tr>
+      <tr>
+          <td><label>First Name:</label></td>
+          <td><label><input type="text" name="MOTHER'S FIRST NAME" value=""></label></td>
+      </tr>
+        <td><label>Middle Name:</label></td>
+        <td><label><input type="text" name="MOTHER'S MIDDLE NAME" value=""></label></td>
+      </tr>
+      <tr>
+        <td><label>Citizenship <em>(at time of applicant’s birth)</em>:</label></td>
+        <td><label><input type="text" name="MOTHER'S CITIZENSHIP" value=""></label></td>
+      </tr>
+
+    </table>
+    <br><br>
+    <button type="submit" name=""><strong>SUBMIT</strong></button>
+
+
     </form>
+
 
   </body>
 </html>
